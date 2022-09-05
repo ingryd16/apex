@@ -1,0 +1,96 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+:root{
+    --primary-color: #F5CF06;
+    --secundary-color: #8E4106;
+    --space-defalt: 0px;
+}
+
+body{
+   background-image: url(./img/Apex\ world.png);
+}
+
+header{
+    background: #161616;
+    height: 40px;
+    width: 1920px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.usuario{
+    align-self: center;
+    height: 19px;
+    width: 17px;
+    left: 1775.5px;
+    top: 11px;
+    border-radius: 0px;
+}
+
+.ajuda{
+    height: 20px;
+    width: 14px;
+    left: 1816.5px;
+    top: 10px;
+    border-radius: 0px;
+}
+
+.EAsimbolo{
+    left: 1854.5px;
+    top: 11px;
+    border-radius: 0px;  
+}
+
+
+.character{
+    height: 87%;
+    width: 32%;
+    border-radius: 0px;
+    position: absolute;
+    top: 67%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.faixa{
+    height: 809px;
+    width: 833px;
+    left: 1015px;
+    top: 174px;
+    border-radius: 0px;
+    position: absolute;
+    top: 67%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.faixa2{
+    height: 159.3155517578125px;
+    width: 355.33526611328125px;
+    left: 1015px;
+    top: 823.6845703125px;
+    border-radius: 0px;
+}
+
+main{  
+    flex-grow:1;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+}
+
+
+.titulo{
+    position: relative;
+    grid-column: 1/-1;
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
